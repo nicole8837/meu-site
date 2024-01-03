@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--google fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lobster&family=Poppins:wght@100&display=swap" rel="stylesheet">    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css">
+    <title>Ministra Luciana Santos</title>
+    <link rel="stylesheet" href="ministra.css">
+</head>
+<body>
+    <header>
+        <div class="interface">
+            <div class="logo">
+                <a href="#"></a>
+                <img src="govbr.jpg" alt="#"><!--por a logo-->
+
+            </div><!--logo-->
+            <nav class="menu-dasktop">
+                <ul>
+                    <li><a href="#">HOME</a></li>
+                    <li><a href="#">SOBRE</a></li>
+                    <li><a href="#trajetoria">TRAJETÓRIA</a></li>
+                    <li><a href="#contato">CONTATO</a></li>
+                </ul>
+            </nav>
+            <div class="btn-cadastro">
+                <a href="#cadastro">
+                    <button>Cadastre-se</button>
+                </a>
+            </div><!--contato-->
+        </div><!--interface-->
+    </header> <!--fim do header-->
+
+    <main>
+        <section class="topo-do-site">
+            <div class="interface">
+                <div class="flex">
+                    <div class="txt-topo-site">
+                        <h1><span>Luciana Santos</span></h1>
+                        <p>MINISTRA DE ESTADO DA CIÊNCIA, TECNOLOGIA E INOVAÇÃO <br> <br>
+                           Luciana Barbosa de Oliveira Santos é Engenheira Eletricista, graduada <br>
+                           pela Universidade Federal de Pernambuco (UFPE). Foi presidente do <br>
+                            Instituto de Pesos e Medidas de Pernambuco (IPEM), 
+                           <br> deputada estadual, prefeita de Olinda, secretária estadual de Ciência,Tecnologia e <br>
+                         Meio Ambiente, deputada federal e vice-governadora de Pernambuco, 
+                           <br> além de presidente nacional do PCdoB.</p>
+                           <div class="btn-cadastro">
+                            <a href="#">
+                                <button>contato</button>
+                            </a>
+                           </div><!--bnt cadastro-->
+                    </div><!--txt-topo-site-->
+                    <div class="img-topo-site">
+                        <img src="luciana.jpg" alt="imagem da ministra Luciana">
+                    </div><!--img-topo-site-->
+                </div><!--flex-->
+            </div><!--interface main-->
+        </section><!--topo do site-->
+    </main><!--topo do site-->
+
+    <section class="trajetoria" id="#trajetoria">
+        <div class="interface">
+            <h2 class="titulo"><span>Trajetória</span></h2>
+            <div class="flex">
+                <div class="trajetoria-box">
+                    <h3>1984-1991</h3>
+                    <p>Na política, começou a militância no movimento estudantil, em 1984. Foi presidente do Diretó Acadêmico de Engenharia e Computação da UFPE em 1985, dirigente do DCE e vice-presidente regional da União Nacional dos Estudantes, UNE,  de 1989 a 1991.</p>
+                </div><!--"trajetoria-box"-->
+
+                <div class="flex">
+                    <div class="trajetoria-box">
+                        <h3>1995-1998</h3>
+                        <p>Em 1995, foi nomeada presidente do Instituto de Pesos e Medidas de Pernambuco, pelo então governador do estado, Miguel Arraes. Em 1996 assumiu o mandato como deputada estadual.
+                            Em 1998, foi reeleita deputada estadual. Na Assembleia Legislativa foi líder do PCdoB.</p>
+                    </div><!--"trajetoria-box"-->
+
+                    <div class="flex">
+                        <div class="trajetoria-box">
+                            <h3>2000-2010</h3>
+                            <p>Em 2000 foi eleita prefeita de Olinda, sendo reeleita em primeiro turno em 2004. Por suas administrações recebeu o prêmio Prefeita Amiga da Criança da Fundação Abrinq. Em 2009 foi nomeada pelo então governador Eduardo Campos, secretária de Ciência, Tecnologia e Meio Ambiente de Pernambuco. Em 2010 foi eleita deputada federal. Na Câmara foi titular da Comissão de Ciência e Tecnologia, Comunicação e Informática (CCTCI). </p>
+                        </div><!--"trajetoria-box"-->
+            </div><!--flex-->
+        </div><!--interface-->
+    </section><!--trajetória-->
+
+    <section class="contato" id="#contato">
+        <div class="interface">
+            <h2 class="titulo">Contato</h2>
+
+            <form action="">
+                <input type="text" name="" id="" placeholder="Nome Completo" required>
+                <input type="text" name="" id="" placeholder="E-mail" required>
+                <input type="text" name="" id="" placeholder="Telefone">
+                <textarea name="" id="" placeholder="Menssagem" required></textarea>
+                <div class="btn-enviar"><input type="submit" value="ENVIAR"></div>
+            </form>
+
+        </div><!--interface-->
+    </section><!--contato-->
+
+    <section class="cadastro">
+        <div class="box">
+            <form action="">
+                <fieldset>
+                    <legend><b>Cadastro</b></legend>
+                    <br>
+
+                    <div class="imbutBox">
+                        <input type="text" nome="nome" id="nome" class="inputUser" required>
+                        <label for="nome">Nome Completo</label>
+                        <input type="radio" name="nome_social" value="nome_social" required>
+                        <label for="nome_social">Nome Social</label>
+                    </div>
+
+                     <br><br>
+
+                    <div class="imbutBox">
+                        <input type="email" nome="email" id="email" class="inputUser" required>
+                        <label for="nome" >E-mail</label>
+                    </div>
+
+                    <br><br>
+
+                    <div class="imbutBox">
+                        <input type="tel" nome="Telefone" id="Telefone" class="inputUser" required>
+                        <label for="nome">Telefone</label>
+                    </div>
+                    
+                    <br><br>
+    
+                    <p><b>Sexo:</b></p>
+                    <input type="radio" name="Sexo" value="feminino" required>
+                    <label for="feminino">Feminino</label>
+    
+                    <input type="radio" name="Sexo" value="masculino" required>
+                    <label for="masculino">Masculino</label>
+    
+                    <input type="radio" name="Sexo" value="outro" required>
+                    <label for="outro">Outro</label>
+                    <br><br>
+    
+                    <div class="imbutBox">
+                        <label for="data_nascimento"> <b> Data de Nascimento: </b></label>
+                        <input type="date" nome="data_nascimento" id="data_nascimento" class="inputUser" required>
+                    </div>
+                    <br><br>
+    
+                    <div class="imbutBox">
+                        <input type="text" nome="cidade" id="cidade" class="inputUser" required>
+                        <label for="cidade" >Cidade</label>
+                    </div>
+                    <br><br>
+    
+                    <div class="imbutBox">
+                        <input type="text" nome="estado" id="estado" class="inputUser" required>
+                        <label for="estado" >Estado</label>
+                    </div>
+                    <br><br>
+    
+                    <div class="imbutBox">
+                        <input type="text" nome="endereco" id="endereco" class="inputUser" required>
+                        <label for="endereco" >Endereço</label>
+                    </div>
+                    <br><br>
+    
+                    <div class="imbutBox">
+                        <input type="text" nome="cep" id="cep" class="inputUser" required>
+                        <label for="cep" >CEP</label>
+                    </div>
+
+                    <div class="btn-enviar"><input type="submit" value="ENVIAR"></div>
+                  
+            </form>
+                </fieldset>
+
+                    <footer>
+                        <span>Todos os Direitos Rezervado a| Nicole Luise - (71)99999999</span>
+                    </footer>
+
+    
+</body>
+</html>

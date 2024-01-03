@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2? family= Playfair+Display & display=swap');
+ 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: none;
+    list-style: none;
+    font-family: "Playfair Display";
+}
+.section{
+    height: 500px;
+}
+ 
+.background{
+    background-color: deepskyblue;
+    /* background-color: rgb(43, 43, 163); */
+    background-image: url(background-1.jpeg);/*provavelmente a imagem não irá funcionar*/
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+}
+ 
+header{
+    display: flex;
+    justify-content: space-around;
+    max-width: 100%;
+    align-items: center;
+    text-align: center;
+    padding-top: 1rem;
+}
+.cabeçalho-link{
+    display: flex;
+    gap: 3rem;
+    font-weight: 300;
+    cursor: pointer;
+ 
+}
+.cabeçalho-link li a{
+    color: white;
+    font-size: 12px;
+}
+.cabeçalho-link a :hover{
+    color: #2ecc71;
+    transition: 0.3s all;
+}
+.logo{
+    height: 40px;
+    width: 40px;
+    background: transparent;
+    border: 1px solid #2ecc71;
+    color: #2ecc71;
+    border-radius: 50px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 13px;
+    cursor: pointer;
+}
+button{
+    color: #2ecc71;
+    background: transparent;
+    border: solid 1px #2ecc71;
+    padding: 5px;
+    border-radius: 15px;
+    font-size: 12px;
+    width: 150px;
+    cursor: pointer;
+}
+button:hover{
+    background-color: #2ecc71;
+    color: #fff;
+    transition: 0.5s;
+}
+.container-text{
+    padding: 150px 0 0 130px;
+}
+.text h3{
+    color: #fff;
+    font-size: 15px;
+}
+.text h1{
+    color: #fff;
+    margin-top: 10px;
+}
+.text span{
+    color: #2ecc71;
+}
+.text p{
+    color: #fff;
+    font-size: 10px;
+    font-weight: 300;
+    margin-top: 10px;
+}
+.redes-sociais a{
+    color: #2ecc71;
+    padding: 10px;
+    margin-top: 5px;
+}
+.btn{
+    margin-top: 10px;
+}
+.conteudo-seção h2{
+    color: #2ecc71;
+}
+footer{
+    text-align: center;
+    height: 80px;
+    color: burlywood;
+    background-color: brown;
+}
+.col{
+    margin-top: 25px;
+}   
+button h3{ /*eu tentei deixar os itens um do lado do outro*/
+    color: black;
+    background: transparent;
+    border:  1px black;
+    padding: 5px;
+    border-radius: 15px;
+    font-size: 12px;
+    width: 150px;
+    align-items: center;
+    
+}
+
+
